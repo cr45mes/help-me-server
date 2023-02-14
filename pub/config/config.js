@@ -26,16 +26,9 @@ const development = {
     dateStrings: true,
   },
 
-  // APP_ID: "wxa0c64efa1f923c80", //微信小程序APPID
-  // APP_SECRET: "2ebe8767e29787dc25b48416698f1d47", //微信小程序APP密钥
-  // APP_ID: "wxba2c786570a0ab6f", //微信小程序APPIDLKJ
-  // APP_SECRET: "164ed66125a49946aa0945769da4e7a3", //微信小程序APP密钥
-  // APP_ID: "wx102145e7772fafa0", //微信小程序APPIDGYC
-  // APP_SECRET: "775249e8b727758caa22e4d9508b1164", //微信小程序APP密钥
-  // APP_ID: "wxb04e9cb903e0757d", //微信小程序APPID我自己的第二个
-  // APP_SECRET: "0eb92c8b360f526e88c4694386620f12", //微信小程序APP密钥
-  // APP_ID: "wx87a012db746ad030", //测试号，微信小号
-  // APP_SECRET: "a9c3e2f52e7c68a30bab69483b5a1c57", //微信小程序APP密钥
+  
+  // APP_ID: "", 
+  // APP_SECRET: "", //微信小程序APP密钥
   Mch_id: "", //商户号
   Mch_key: "", //商户密钥
 
