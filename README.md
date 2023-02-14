@@ -1,4 +1,4 @@
-# 校园综合服务平台小程序后台服务端
+# 校园跑腿小程序后端
 
 #### 安装教程
 
@@ -33,7 +33,7 @@ CREATE SCHEMA `help` DEFAULT CHARACTER SET utf8mb4 ;
 3.安装依赖并启动
 
 ```
-npm install
+npm install //或者使用yarn
 npm start
 ```
 
