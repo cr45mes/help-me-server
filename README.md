@@ -1,13 +1,5 @@
 # 校园综合服务平台小程序后台服务端
 
-#### 项目链接
-本项目配合以下两端使用：<br>
-[1.小程序端地址：https://github.com/landalfYao/help.git](https://github.com/landalfYao/help.git)<br>
-[2.后台客户端地址：https://github.com/landalfYao/helpclient.git](https://github.com/landalfYao/helpclient.git)<br>
-
-#### 线上部署教程
-1. 后台服务端部署教程[https://my.oschina.net/u/4053979/blog/3026392](https://my.oschina.net/u/4053979/blog/3026392)
-
 #### 安装教程
 
 1.新建数据库
@@ -32,10 +24,10 @@ CREATE SCHEMA `help` DEFAULT CHARACTER SET utf8mb4 ;
   },
 
 
-  APP_ID: "", //微信小程序APPID
-  APP_SECRET: "", //微信小程序APP密钥
-  Mch_id: "", //商户号
-  Mch_key: "", //商户密钥
+  APP_ID: "", //微信小程序APPID，必填
+  APP_SECRET: "", //微信小程序APP密钥，必填
+  Mch_id: "", //商户号,可以不填，原本是用于调用微信支付，后面直接绕过微信支付，自己实现了支付功能
+  Mch_key: "", //商户密钥，可以不填，同上
 ```
 
 3.安装依赖并启动
@@ -47,10 +39,5 @@ npm start
 
 访问[http://localhost:3337](http://localhost:3337)
 
-#### 交流
-微信号:landalfyzy<br>
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0320/102250_efc7b2d0_1930998.jpeg "微信图片_20190320102141.jpg")
-<br>
-QQ群<br>
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0325/100055_4cc3cea8_1930998.png "微信截图_20190325095959.png")
+
 
